@@ -1,6 +1,8 @@
 :root {
+    --grey: #EEEEEE;
     --blue: #000328;
     --branco: #ffffff;
+    --azul-claro: #1a0e97;
     --gap: 3rem;
 }
 
@@ -23,11 +25,12 @@
 }
 
 .menu {
-    background: red;
+    background: var(--branco);
     top: 0;
     right: 0;
     left: 0;
     position: fixed;
+    border-bottom: 2px solid var(--grey);
 }
 
 .menu-content {
@@ -48,6 +51,8 @@
     text-decoration: none;
     color: var(--blue);
     padding: 1.8rem;
+    position: relative;
+    /*text-shadow: 1rem 1rem 1rem var(--azul-claro);*/
 }
 
 .menu h1 {
@@ -57,4 +62,20 @@
 .menu h1 a {
     text-decoration: none;
     color: var(--blue);
+}
+
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: #23148e;
+    transition: all 200ms ease-in-out;
+}
+
+.menu section nav ul li a:hover::after {
+    width: 50%;
+    left: 25%;
 }
