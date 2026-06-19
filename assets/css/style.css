@@ -1,36 +1,10 @@
-:root {
-    --grey: #EEEEEE;
-    --blue: #000328;
-    --branco: #ffffff;
-    --azul-claro: #1a0e97;
-    --gap: 3rem;
-}
-
-.main-bg {
-    background-image: url('../imagens/fundo.svg');
-    background-size: cover;
-    background-position: center center;
-    color: var(--branco);
-}
-
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--gap);
-}
-
-.white-bg {
-    background: var(--branco);
-    color: var(--blue);
-}
 
 .menu {
-    background: var(--branco);
     top: 0;
     right: 0;
     left: 0;
     position: fixed;
-    border-bottom: 2px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
 }
 
 .menu-content {
@@ -49,7 +23,6 @@
 .menu ul li a {
     display: block;
     text-decoration: none;
-    color: var(--blue);
     padding: 1.8rem;
     position: relative;
     /*text-shadow: 1rem 1rem 1rem var(--azul-claro);*/
@@ -61,7 +34,6 @@
 
 .menu h1 a {
     text-decoration: none;
-    color: var(--blue);
 }
 
 .menu ul li a::after {

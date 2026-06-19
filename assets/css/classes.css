@@ -1,0 +1,21 @@
+.main-bg {
+    background-image: url('../imagens/fundo.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--branco);
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.white-bg {
+    background: var(--branco);
+    color: var(--blue);
+}
+
+.section {
+    min-height: 100vh;
+}
