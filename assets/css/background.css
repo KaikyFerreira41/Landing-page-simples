@@ -1,0 +1,60 @@
+:root {
+    --blue: #000328;
+    --branco: #ffffff;
+    --gap: 3rem;
+}
+
+.main-bg {
+    background-image: url('../imagens/fundo.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--branco);
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.white-bg {
+    background: var(--branco);
+    color: var(--blue);
+}
+
+.menu {
+    background: red;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--blue);
+    padding: 1.8rem;
+}
+
+.menu h1 {
+    font-size: 2.3rem;
+}
+
+.menu h1 a {
+    text-decoration: none;
+    color: var(--blue);
+}
