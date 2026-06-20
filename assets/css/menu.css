@@ -43,11 +43,11 @@
     left: 50%;
     width: 0;
     height: 0.2rem;
-    background: #23148e;
+    background: var(--azul-claro);
     transition: all 200ms ease-in-out;
 }
 
-.menu section nav ul li a:hover::after {
-    width: 50%;
-    left: 25%;
+.menu div nav ul li a:hover::after {
+    width: 60%;
+    left: 20%;
 }
