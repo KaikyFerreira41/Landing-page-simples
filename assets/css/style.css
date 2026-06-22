@@ -14,14 +14,13 @@
     flex-flow: column wrap;
 }
 
-.intro-text-content h2 {
-    font-size: 6rem;
-    margin-bottom: 5rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
-
 .intro-img img {
     max-width: 100%;
     height: auto;
+}
+
+.html-content {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
 }
