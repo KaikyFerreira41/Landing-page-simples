@@ -23,4 +23,24 @@
     display: flex;
     flex-flow: column wrap;
     height: 100vh;
+    justify-content: center;
+    max-width: 64rem;
+    text-align: center;
+}
+
+.h2-html {
+    font-size: 8rem;
+}
+
+.grid-css-content {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+    justify-content: center;
+}
+
+.css-grid-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
 }

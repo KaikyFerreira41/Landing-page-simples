@@ -34,7 +34,7 @@
                 <ul>
                     <li><a href="#introdução">Intro</a></li>
                     <li><a href="#sobre-html">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
+                    <li><a href="#sobre-css">CSS</a></li>
                     <li><a href="#">JavScript</a></li>
                     <li><a href="#">contact</a></li>
                 </ul>
@@ -59,24 +59,57 @@
             </div>
         </div>
     </section>
+
     <section id="sobre-html" class="white-bg section">
         <div class="main-content html-content">
-            <h2>HTML</h2>
+            <h2 class="h2-html">HTML</h2>
             <p>
-                HTML is the foundation of the World Wide Web, acting as the structural skeleton for every website. It uses a system of tags to organize and display content like text, images, and links, ensuring browsers
+                HTML is the foundation of the World Wide Web, acting as the structural skeleton for every website. It
+                uses a system of tags to organize and display content like text, images, and links, ensuring browsers
                 can understand and render pages correctly.
             </p>
 
             <p>
-                With the evolution of HTML5, semantic tags like header, main, and footer were introduced. This modern architecture gives meaning to the layout, making code cleaner to maintain and drastically improving how
+                With the evolution of HTML5, semantic tags like header, main, and footer were introduced. This modern
+                architecture gives meaning to the layout, making code cleaner to maintain and drastically improving how
                 search engines index your website.
             </p>
 
             <p>
-                Beyond structure, writing clean HTML is fundamental for web accessibility, allowing screen readers to assist visually impaired users. Mastering these core elements is the first and most crucial step before
+                Beyond structure, writing clean HTML is fundamental for web accessibility, allowing screen readers to
+                assist visually impaired users. Mastering these core elements is the first and most crucial step before
                 applying styles or adding dynamic logic.
             </p>
 
+        </div>
+    </section>
+
+    <section id="sobre-css" class="css-grid main-bg section">
+        <div class="main-content grid-css-content">
+            <h2>CSS</h2>
+            <p>The three types of CSS are:</p>
+            <div class="css-grid-content">
+                <article>
+                    <h3>CSS Inline</h3>
+                    <p>
+                        Inline CSS is applied directly within an HTML element using the style attribute. While highly useful for quick, targeted tweaks or testing isolated changes, overloading elements with inline properties can quickly clutter your markup and hamper project maintainability.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Internal CSS</h3>
+                    <p>
+                        Internal CSS embeds style rules within a style tag  placed inside the document head. This method is ideal for single-page websites or styling specific, unique pages, keeping the visual presentation contained within that individual file.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>External CSS</h3>
+                    <p>
+                        External CSS links a separate stylesheet to your HTML file using the link tag. This industry-standard approach separates presentation from structure completely, allowing you to manage and update the visual layout of an entire website from a single, centralized file.
+                    </p>
+                </article>
+            </div>
         </div>
     </section>
 
