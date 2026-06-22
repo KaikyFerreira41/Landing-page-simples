@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1.5fr;
     align-items: center;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro-text-content {
@@ -22,7 +22,7 @@
 .html-content {
     display: flex;
     flex-flow: column wrap;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     max-width: 64rem;
     text-align: center;
@@ -35,7 +35,7 @@
 .grid-css-content {
     display: flex;
     flex-flow: column wrap;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
 }
 
@@ -43,4 +43,31 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--gap);
+    counter-reset: css-counter;
+}
+
+.css-grid-content h3 {
+    font-size: 3.5rem;
+    position: relative;
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+}
+
+.css-grid-content h3::before {
+    counter-increment: css-counter;
+    content: counter(css-counter);
+    position: absolute;
+    font-size: 8rem;
+    font-family: italic;
+    top: -3rem;
+    left: 1rem;
+    transform: rotate(5deg);
+}
+
+.grid-description {
+    padding-bottom: 7rem;
+}
+
+.grid-main-heading {
+    margin-bottom: 0;
 }
