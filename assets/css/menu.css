@@ -25,8 +25,8 @@
     display: block;
     text-decoration: none;
     padding: 1.8rem;
+    color: var(--blue);
     position: relative;
-    /*text-shadow: 1rem 1rem 1rem var(--azul-claro);*/
 }
 
 .menu h1 {
@@ -44,11 +44,17 @@
     left: 50%;
     width: 0;
     height: 0.2rem;
-    background: var(--azul-claro);
+    background: var(--blue);
     transition: all 200ms ease-in-out;
 }
 
 .menu div nav ul li a:hover::after {
     width: 60%;
     left: 20%;
+}
+
+.menu h1 img {
+    height: 40px;
+    width: auto;
+    display: block;
 }
