@@ -29,10 +29,6 @@
     text-align: center;
 }
 
-.h2-html {
-    font-size: 8rem;
-}
-
 .grid-one-content {
     display: flex;
     flex-direction: column;
@@ -137,10 +133,8 @@
 }
 
 @media (max-width:800px) {
-    
-    html, body {
-        width: 100%;
-        overflow-x: hidden;
+    .footer {
+        text-align: center;
     }
 
     .grid, .intro-content {
@@ -160,22 +154,5 @@
     }
     .grid-one-content {
         display: block;
-    }
-    
-    .section {
-        min-height: 200vh;
-    }
-    
-    .menu {
-        bottom: 0;
-        text-align: center;
-        display: none;
-    }
-    .menu-content, .menu-content ul {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .menu-content {
-        height: 100vh;
     }
 }

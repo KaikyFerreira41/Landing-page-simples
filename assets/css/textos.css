@@ -9,6 +9,10 @@
 /* font-family: "Montserrat", sans-serif; */
 /* font-family: "Open Sans", sans-serif; */
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    }
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -54,4 +58,35 @@ h6 {
 
 p {
     margin-bottom: 3rem;
+}
+
+@media (max-width:800px) {
+    
+    h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 4rem;
+        margin-bottom: 5rem;
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+        text-transform: capitalize;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+
+    h5 {
+        font-size: 2.5rem;
+    }
+
+    h6 {
+        font-size: 2rem;
+    }
 }
